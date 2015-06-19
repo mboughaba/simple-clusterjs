@@ -1,5 +1,5 @@
 {
-  "name": "clusterjs",
+  "name": "simple-clusterjs",
   "version": "0.1.0",
   "description": "simple nodejs cluster implementation",
   "scripts": {
@@ -44,9 +44,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mboughaba/clusterjs.git"
+    "url": "https://github.com/mboughaba/simple-clusterjs.git"
   },
   "bugs": {
-    "url": "https://github.com/mboughaba/clusterjs/issues"
+    "url": "https://github.com/mboughaba/simple-clusterjs/issues"
   }
 }
