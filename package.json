@@ -41,5 +41,12 @@
     "cover",
     "coverage"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mboughaba/clusterjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mboughaba/clusterjs/issues"
+  }
 }
