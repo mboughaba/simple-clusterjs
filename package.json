@@ -9,7 +9,8 @@
     "lint": "jshint .",
     "check": "jscs .",
     "inspect": "jsinspect .",
-    "coverage": "istanbul check-coverage --statement 100 --branch 100 --function 100 --line 100"
+    "coverage": "istanbul check-coverage --statement 100 --branch 100 --function 100 --line 100",
+    "validate": "npm ls"
   },
   "keywords": [
     "simple",
@@ -28,7 +29,7 @@
   "devDependencies": {
     "istanbul": "^0.3.15",
     "mocha": "^2.2.5",
-    "precommit-hook": "^2.0.1",
+    "precommit-hook": "latest",
     "rewire": "^2.3.4",
     "should": "^6.0.3",
     "sinon": "^1.15.3",
