@@ -12,8 +12,8 @@
     "coverage": "istanbul check-coverage --statement 100 --branch 100 --function 100 --line 100"
   },
   "keywords": [
-      "simple",
-      "nodejs",
+    "simple",
+    "nodejs",
     "cluster",
     "node",
     "core",
