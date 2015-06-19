@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var argv = require('yargs')
+        .usage('Usage: $0 -s [path/to/server]')
+        .alias('s', 'server')
+        .example('$0 node index.js -s ../server/app',
+                 'will start ../server/app.js within node cluster')
+        .describe('s', 'path to the server\'s javascript file to be required')
+        .demand('server')
+        .argv;
+
+require('./../index.js')(argv.s);
