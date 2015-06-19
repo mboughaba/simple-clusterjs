@@ -21,7 +21,6 @@
     "multiple"
   ],
   "author": "Mohamed Boughaba <mohamed.bgb@gmail.com>",
-  "private": true,
   "dependencies": {
     "debug": "^2.2.0",
     "yargs": "^3.11.0"
@@ -41,5 +40,6 @@
     "inspect",
     "cover",
     "coverage"
-  ]
+  ],
+  "license": "MIT"
 }
