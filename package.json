@@ -6,6 +6,7 @@
     "test": "mocha",
     "test-watch": "mocha --opts ./test/mocha-watch.opts",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha --",
+    "test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly",
     "lint": "jshint .",
     "check": "jscs .",
     "inspect": "jsinspect .",
